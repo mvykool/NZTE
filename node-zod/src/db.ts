@@ -1,6 +1,5 @@
 import { MongoClient } from 'mongodb';
 
-
 const {
   MONGO_URI = 'mongodb://localhost:27017',
 } = process.env;
